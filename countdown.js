@@ -3,7 +3,7 @@ const targetDate = new Date("2024-12-25T00:00:00Z");
 
 function updateCountdown() {
   // 현재 한국 시간을 얻어오기
-  const now = new Date(new Date().toLocaleString("en-US", { timeZone: "Asia/Manila" }));
+  const now = new Date(new Date().toLocaleString("en-US", { timeZone: "Asia/Seoul" }));
 
 
   // 남은 시간 계산
